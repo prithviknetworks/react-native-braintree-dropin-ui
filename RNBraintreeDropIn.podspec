@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "./LICENSE" }
   s.author             = { "author" => "lagrange.louis@gmail.com" }
-  s.platform     = :ios, "12.0"
+  s.platform     = :ios, "15.0"
   s.source       = { :git => "https://github.com/BradyShober/react-native-braintree-dropin-ui.git", :tag => "master" }
   s.source_files  = "ios/**/*.{h,m}"
   s.requires_arc = true
   s.dependency    'React'
-  s.dependency    'Braintree', '5.23.0'
+  s.dependency    'Braintree', '5.24.0'
   s.dependency    'BraintreeDropIn', '9.10.0'
   s.dependency    'Braintree/DataCollector', '5.23.0'
   s.dependency    'Braintree/ApplePay', '5.23.0'
